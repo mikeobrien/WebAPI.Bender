@@ -33,8 +33,9 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Bender">
-      <HintPath>..\packages\Bender.3.0.4.0\lib\Bender.dll</HintPath>
+    <Reference Include="Bender, Version=3.0.40.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bender.3.0.40.0\lib\Bender.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Flexo">
       <HintPath>..\packages\flexo.1.0.20.0\lib\Flexo.dll</HintPath>
